@@ -1,5 +1,8 @@
 version: 2.1
 
+orbs:
+  node: circleci_python/node@4.7.0
+  
 jobs:
   build:
     docker:
